@@ -11,6 +11,8 @@ const ContactForm = () => {
     formState: { errors },
   } = useForm({
     resolver: zodResolver(ContactFormSchema),
+    mode: "onBlur",
+    reValidateMode: "onBlur",
   });
 
   const onSubmit = (data) => {
@@ -43,7 +45,7 @@ const ContactForm = () => {
           )}
         />
         {errors.name && (
-          <p className="text-red-500 text-sm">{errors.name.message}</p>
+          <p className="text-red-500 text-sm w-full">{errors.name.message}</p>
         )}
 
         <Controller
@@ -59,7 +61,7 @@ const ContactForm = () => {
           )}
         />
         {errors.email && (
-          <p className="text-red-500 text-sm">{errors.email.message}</p>
+          <p className="text-red-500 text-sm w-full">{errors.email.message}</p>
         )}
 
         <Controller
@@ -75,7 +77,7 @@ const ContactForm = () => {
           )}
         />
         {errors.phone && (
-          <p className="text-red-500 text-sm">{errors.phone.message}</p>
+          <p className="text-red-500 text-sm w-full">{errors.phone.message}</p>
         )}
 
         <Controller
@@ -91,7 +93,9 @@ const ContactForm = () => {
           )}
         />
         {errors.company && (
-          <p className="text-red-500 text-sm">{errors.company.message}</p>
+          <p className="text-red-500 text-sm w-full">
+            {errors.company.message}
+          </p>
         )}
 
         <button

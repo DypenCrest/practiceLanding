@@ -8,12 +8,10 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 place-content-center sm:place-items-center ">
         <div className="xl:pr-[18rem] col-span-2">
           <p className="text-sm text-gray-600 mb-4">
-            Curabitur consequat, purus a scelerisque sagittis, nulla metus
-            tincidunt elit, vel venenatis nulla libero nec nulla. Suspendisse
-            potenti. Aenean a justo vel sapien pellentesque tincidunt. Sed
-            luctus, elit ac interdum convallis, ligula libero egestas orci, at
-            auctor felis ligula nec odio.
+            SKIF, in the context of martial arts, stands for Shotokan Karate-do
+            International Federation.
           </p>
+          <p className="text-sm text-gray-600 mb-4">Imadol, Lalitpur, Nepal</p>
           <div className="flex space-x-4 mt-6">
             <a href="#" aria-label="LinkedIn">
               <div className="w-6 h-6 text-purple-600">
@@ -27,109 +25,25 @@ const Footer = () => {
             </a>
             <a href="#" aria-label="Email">
               <div className="w-6 h-6 text-purple-600">
-                <img src={EmailIcon} alt="LinkedIn" className="w-full h-full" loading="lazy" />
+                <img
+                  src={EmailIcon}
+                  alt="LinkedIn"
+                  className="w-full h-full"
+                  loading="lazy"
+                />
               </div>
             </a>
           </div>
         </div>
-        <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
-          <div className="">
-            <h3 className="font-semibold text-gray-900 mb-4">Products</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Payments
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Invoice Factoring
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Invoice finance
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Supplier finance
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Customer finance
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  About us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Contact us
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Resources</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Frequently asked questions
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  Knowledge base
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-sm text-gray-600 hover:text-gray-900"
-                >
-                  API documentation
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div className="col-span-2">
+          <p className="text-sm text-gray-600 mb-4 ">
+            SKIF refers to the Shotokan Karate-Do International Federation, a
+            global organization dedicated to the practice and promotion of
+            Shotokan karate. Founded in 1978 by Hirokazu Kanazawa, it has grown
+            to have affiliated groups in over 130 countries. SKIF emphasizes
+            traditional Budo spirit, seeking perfection of character through
+            rigorous training and discipline.
+          </p>
         </div>
       </div>
 

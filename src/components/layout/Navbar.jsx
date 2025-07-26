@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LogoImg from "../../../public/icon/logo.svg";
+import LogoImg from "../../../public/images/shotokanLogo.png";
 import { Menu, X } from "lucide-react";
 import { NavbarData } from "../../assets/constant";
 import { set } from "react-hook-form";
@@ -41,7 +41,7 @@ const Navbar = () => {
             className="h-10 w-10"
             loading="lazy"
           />
-          <span className="text-3xl font-bold">Logoipsum</span>
+          <span className="text-3xl font-bold midorima">SKIF NEPAL</span>
         </a>
       </div>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
         ))}
       </nav>
 
-      <div className="hidden lg:flex items-center space-x-4">
+      {/* <div className="hidden lg:flex items-center space-x-4">
         <a
           href="#"
           className="text-sm font-medium text-[#4532FC] hover:underline"
@@ -68,7 +68,7 @@ const Navbar = () => {
         <button className="bg-[#4532FC] hover:bg-[#3a3374] text-white rounded-full">
           Request a demo
         </button>
-      </div>
+      </div> */}
       <button
         onClick={toggleNav}
         className="lg:hidden block z-50"

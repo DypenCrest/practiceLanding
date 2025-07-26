@@ -17,15 +17,14 @@ const ManageLanding = () => {
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <section id="outsource">
-          {" "}
           <OutsourcePayment />
         </section>
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <section id="taskmanager">
           <TaskManager />
         </section>
-      </Suspense>
+      </Suspense> */}
       <Suspense fallback={<div>Loading...</div>}>
         <section id="contact">
           <ContactForm />
