@@ -5,8 +5,8 @@ const Herocontent = () => {
   // active dots on banner dekhauna state
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="w-full bg-[#121D2D] relative overflow-hidden max-h-dvh mt-[100px] ">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-between p-4 md:p-24 ">
+    <div className="w-full bg-[#121D2D] relative overflow-hidden md:max-h-dvh mt-[100px] ">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 items-center justify-between p-4 md:p-24">
         <div className="space-y-6 z-10 text-center md:text-start col-span-2 ">
           <h1 className=" font-bold  text-white leading-tight midorima">
             SHOTOKAN KARATE-DO INTERNATIONAL FEDERATION <br />
@@ -18,11 +18,11 @@ const Herocontent = () => {
             </button>
           </div>
         </div>
-        <div className="relative flex md:w-[200px] md:justify-end justify-center items-center w-full">
+        <div className="relative flex md:w-[200px] md:justify-end justify-center items-center w-full py-4 md:py-0">
           <img
             src={HeroImage}
             alt="Hero Image"
-            className="h-auto w-[20%] md:w-auto"
+            className="h-auto w-[50%] md:w-auto"
             loading="lazy"
           />
         </div>
